@@ -6,13 +6,13 @@ DESTDIR = $$BINDIR
 CONFIG += staticlib
 QT += quick
 
-INCLUDEPATH += ../3rdparty/imgui
+INCLUDEPATH += ../../../imgui
 
 SOURCES += \
-    ../3rdparty/imgui/imgui.cpp \
-    ../3rdparty/imgui/imgui_draw.cpp \
-    ../3rdparty/imgui/imgui_widgets.cpp \
-    ../3rdparty/imgui/imgui_demo.cpp \
+    ../../../imgui/imgui.cpp \
+    ../../../imgui/imgui_draw.cpp \
+    ../../../imgui/imgui_widgets.cpp \
+    ../../../imgui/imgui_demo.cpp \
     imguiitem.cpp
 
 HEADERS += \

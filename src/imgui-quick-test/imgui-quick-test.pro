@@ -7,11 +7,12 @@ PRE_TARGETDEPS += $$BINDIR/$${QMAKE_PREFIX_STATICLIB}imgui-quick.$${QMAKE_EXTENS
 
 QT += quick
 
-INCLUDEPATH += $$PWD/../imgui-quick $$PWD/../3rdparty/imgui
+INCLUDEPATH += $$PWD/../imgui-quick $$PWD/../../../imgui
 
 SOURCES += \
     main.cpp \
-    gui.cpp
+    gui.cpp \
+    main.qml
 
 HEADERS += \
     gui.h
